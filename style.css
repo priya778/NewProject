@@ -1,0 +1,125 @@
+body{
+    margin: 0%;
+    padding: 0;
+    font-family: sans-serif;
+}
+#Image{
+    display: flex;
+    width: 900px;
+    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
+
+}
+.search-input{
+    display: flex;
+    border: 1px solid gray;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0% auto;
+    width: 482px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#header{
+    position: fixed;
+    top: 0%;
+    min-height: 40px;
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+}
+#header-img{
+    width: 100%;
+    height: 100%;
+    max-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+nav > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 60px;
+    list-style-type: none;
+
+}
+.a_ref{
+    color: black;
+    text-decoration: none;
+    justify-content: space-around;
+}
+.main{
+    margin-top: 70px;
+}
+#title-advanced{
+    color: darkred;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+#little-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+.find-pages{
+    margin-bottom: 20px;
+ 
+    margin-left: 40px;
+    flex-direction: row;
+}
+#space{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.advanced-input{
+    width: 200px;
+    text-align:left;
+    
+}
+.text-advanced{
+    width: 200px;
+    
+}
+#space-btn{
+    margin-right: 30px;
+    margin-left: 70px;
+    border-radius: 5px;
+}
+#button{
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 40px;
+    margin-left: 600px;
+    margin-right: 500px;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+ul.nav-justify-content-end{
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-left: 1200px;
+   
+}
+a{
+    padding: 5px;
+    color: darkblue;
+}
+
+
+
+
+
